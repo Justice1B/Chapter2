@@ -18,8 +18,24 @@ const readline = require('readline-sync');
 //    console.log(x);
 // }
 
-let y = 1;
-while (y > -50){
-    y--;
-    console.log(y);
+// let y = 1;
+// while (y > -50){
+//    y--;
+//    console.log(y);
+// }
+
+//let x = 0;
+// while (x < 101){
+//    if (x % 2 == 0) {
+//        console.log(x);
+//    }
+//    x++;
+// }
+
+let x = 0;
+while (x < 101){
+    if (x % 2 == 1) {
+        console.log(x);
+    }
+    x++;
 }

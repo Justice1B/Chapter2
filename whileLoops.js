@@ -24,13 +24,20 @@ const readline = require('readline-sync');
 //    w++
 // }
 
-let start = 0;
-while (start <= 100){
-    if (start < 10){
-        console.log(start);
-    } else if (start > 25){
-        console.log(start);
-    }
-    start++;
+// let start = 0;
+// while (start <= 100){
+//    if (start < 10){
+//        console.log(start);
+//    } else if (start > 25){
+//        console.log(start);
+//    }
+//    start++;
+// }
+
+let answer = readline.question("Enter y or n:");
+while (answer != "y" && answer != "n" && answer!="quit"){
+    console.log("Invalid choice.")
+    answer = readline.question("Try again. Enter y or n:");
 }
+console.log("rest of program");
 
